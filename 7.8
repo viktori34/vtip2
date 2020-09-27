@@ -1,0 +1,15 @@
+import random
+
+print ('Кубик бросает игрок 1:')
+n1=random.randint(1, 6)
+print ('Выпало :', n1)
+
+print ('Кубик бросает игрок 2:')
+n2=random.randint(1, 6)
+print ('Выпало :', n2)
+if n1>n2:
+    print('Выиграл игрок 1')
+elif n1<n2:
+    print('Выиграл игрок 2')
+else:
+    print('Ничья')
